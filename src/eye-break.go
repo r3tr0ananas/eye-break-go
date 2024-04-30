@@ -13,8 +13,8 @@ func get_image(image string) string {
 	usr, err := user.Current()
 
 	if err != nil {
-        log.Fatal(err)
-    }
+		log.Fatal(err)
+	}
 
 	var file = filepath.Join(usr.HomeDir, ".config", "eye-break-go", "assets", image)
 
