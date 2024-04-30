@@ -1,0 +1,11 @@
+[Unit]
+Description=Goldy's eye break program but in go
+After=network.target
+
+[Service]
+Type=simple
+StandardOutput=journal
+ExecStart=%h/.local/bin/eye-break-go
+
+[Install]
+WantedBy=default.target
