@@ -36,4 +36,6 @@ systemctl --user start eye-break-go
 
 ## Why did i do this?
 
-i don't know, was bored.
+I don't know, was bored.
+
+Also learning go.
