@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os/user"
 	"path/filepath"
@@ -18,8 +17,6 @@ func get_image(image string) string {
     }
 
 	var file = filepath.Join(usr.HomeDir, ".config", "eye-break-go", "assets", image)
-
-	fmt.Println(file)
 
 	return file
 }
