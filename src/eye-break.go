@@ -33,12 +33,11 @@ func user_notify(title string, description string, image string) {
 }
 
 func main() {
-
 	for {
 		user_notify(
 			"Time to take an eye break!",
 			"Look at least 20 feet away for 20 seconds",
-			"away.gif",
+			"away.png",
 		)
 
 		time.Sleep(time.Second * 20)
